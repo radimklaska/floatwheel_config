@@ -11,6 +11,7 @@ Building a VESC based one wheeled PEV. I will keep my notes and config exports h
 
 ## Resources
 
+* Ultimate DIY One Wheel Build — Mario Contino https://www.mariocontino.com/articles/ultimate-diy-one-wheel-build
 * what it is to ride the board of a pro? - CustomWheel https://customwheel.shop/en/blog/how-to-install-the-settings-of-a-pro-rider
 * VESC 5.3 Hub Motor Configuration using the Wizard - YouTube https://www.youtube.com/watch?v=PupK5ertpEg
 * VESC Onewheel IMU Calibration - Gyro AND Accelerometer - YouTube https://www.youtube.com/watch?v=XacXjwFKKF8
