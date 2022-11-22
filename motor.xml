@@ -50,7 +50,7 @@
     <hall_sl_erpm>2000</hall_sl_erpm>
     <foc_current_kp>0.094</foc_current_kp>
     <foc_current_ki>29.33</foc_current_ki>
-    <foc_f_zv>20000</foc_f_zv>
+    <foc_f_zv>26000</foc_f_zv>
     <foc_dt_us>0.12</foc_dt_us>
     <foc_encoder_inverted>0</foc_encoder_inverted>
     <foc_encoder_offset>180</foc_encoder_offset>
