@@ -138,7 +138,7 @@
     <app_balance_conf.torquetilt_angle_limit>8</app_balance_conf.torquetilt_angle_limit>
     <app_balance_conf.torquetilt_on_speed>3</app_balance_conf.torquetilt_on_speed>
     <app_balance_conf.torquetilt_off_speed>3</app_balance_conf.torquetilt_off_speed>
-    <app_balance_conf.torquetilt_strength>0.15</app_balance_conf.torquetilt_strength>
+    <app_balance_conf.torquetilt_strength>0.05</app_balance_conf.torquetilt_strength>
     <app_balance_conf.torquetilt_filter>10</app_balance_conf.torquetilt_filter>
     <app_balance_conf.turntilt_strength>0</app_balance_conf.turntilt_strength>
     <app_balance_conf.turntilt_angle_limit>3</app_balance_conf.turntilt_angle_limit>
