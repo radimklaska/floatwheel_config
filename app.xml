@@ -4,7 +4,7 @@
     <controller_id>17</controller_id>
     <timeout_msec>1000</timeout_msec>
     <timeout_brake_current>0</timeout_brake_current>
-    <send_can_status>5</send_can_status>
+    <send_can_status>4</send_can_status>
     <send_can_status_rate_hz>50</send_can_status_rate_hz>
     <can_baud_rate>0</can_baud_rate>
     <pairing_done>0</pairing_done>
