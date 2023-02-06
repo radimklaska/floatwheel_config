@@ -5,8 +5,9 @@ Building a VESC based one wheeled PEV. I will keep my notes and config exports h
 ## Version
 
 (Any better way to keep track of a version of a firmware?)
-* VESC: https://github.com/surfdado/bldc/releases/tag/rel_5.3_plusV6
-* ENNOID BMS: https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/tag/V5.04
+* VESC: https://github.com/vedderb/bldc/releases/tag/6.00
+* Float package: https://github.com/surfdado/vesc_pkg/tree/float_v0.8 (branch does not really points to a specific release, but there are not git tags to point to)
+* ENNOID BMS: https://github.com/EnnoidMe/ENNOID-BMS-Tool/releases/tag/V6.00
   * https://www.ennoid.me/bms/xlite
 
 ## Resources
