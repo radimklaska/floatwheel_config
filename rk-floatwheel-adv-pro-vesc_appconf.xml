@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <APPConfiguration>
     <ConfigVersion>2</ConfigVersion>
-    <controller_id>74</controller_id>
+    <controller_id>46</controller_id>
     <timeout_msec>1000</timeout_msec>
     <timeout_brake_current>0</timeout_brake_current>
     <can_status_rate_1>50</can_status_rate_1>
     <can_status_rate_2>5</can_status_rate_2>
-    <can_status_msgs_r1>0</can_status_msgs_r1>
+    <can_status_msgs_r1>15</can_status_msgs_r1>
     <can_status_msgs_r2>0</can_status_msgs_r2>
     <can_baud_rate>2</can_baud_rate>
     <pairing_done>0</pairing_done>
@@ -39,21 +39,21 @@
     <app_ppm_conf.max_erpm_for_dir>4000</app_ppm_conf.max_erpm_for_dir>
     <app_ppm_conf.smart_rev_max_duty>0.07</app_ppm_conf.smart_rev_max_duty>
     <app_ppm_conf.smart_rev_ramp_time>3</app_ppm_conf.smart_rev_ramp_time>
-    <app_adc_conf.ctrl_type>8</app_adc_conf.ctrl_type>
-    <app_adc_conf.hyst>0.05</app_adc_conf.hyst>
-    <app_adc_conf.voltage_start>0.6</app_adc_conf.voltage_start>
-    <app_adc_conf.voltage_end>2.54</app_adc_conf.voltage_end>
+    <app_adc_conf.ctrl_type>0</app_adc_conf.ctrl_type>
+    <app_adc_conf.hyst>0.15</app_adc_conf.hyst>
+    <app_adc_conf.voltage_start>0.9</app_adc_conf.voltage_start>
+    <app_adc_conf.voltage_end>3</app_adc_conf.voltage_end>
     <app_adc_conf.voltage_min>0</app_adc_conf.voltage_min>
-    <app_adc_conf.voltage_max>3.6</app_adc_conf.voltage_max>
-    <app_adc_conf.voltage_center>0.6</app_adc_conf.voltage_center>
-    <app_adc_conf.voltage2_start>0</app_adc_conf.voltage2_start>
-    <app_adc_conf.voltage2_end>2</app_adc_conf.voltage2_end>
+    <app_adc_conf.voltage_max>3.5</app_adc_conf.voltage_max>
+    <app_adc_conf.voltage_center>2</app_adc_conf.voltage_center>
+    <app_adc_conf.voltage2_start>0.9</app_adc_conf.voltage2_start>
+    <app_adc_conf.voltage2_end>3</app_adc_conf.voltage2_end>
     <app_adc_conf.use_filter>1</app_adc_conf.use_filter>
     <app_adc_conf.safe_start>1</app_adc_conf.safe_start>
     <app_adc_conf.buttons>0</app_adc_conf.buttons>
     <app_adc_conf.voltage_inverted>0</app_adc_conf.voltage_inverted>
-    <app_adc_conf.voltage2_inverted>1</app_adc_conf.voltage2_inverted>
-    <app_adc_conf.throttle_exp>-0.5</app_adc_conf.throttle_exp>
+    <app_adc_conf.voltage2_inverted>0</app_adc_conf.voltage2_inverted>
+    <app_adc_conf.throttle_exp>0</app_adc_conf.throttle_exp>
     <app_adc_conf.throttle_exp_brake>0</app_adc_conf.throttle_exp_brake>
     <app_adc_conf.throttle_exp_mode>2</app_adc_conf.throttle_exp_mode>
     <app_adc_conf.ramp_time_pos>0.3</app_adc_conf.ramp_time_pos>
@@ -63,7 +63,7 @@
     <app_adc_conf.tc_max_diff>3000</app_adc_conf.tc_max_diff>
     <app_adc_conf.update_rate_hz>500</app_adc_conf.update_rate_hz>
     <app_uart_baudrate>115200</app_uart_baudrate>
-    <app_chuk_conf.ctrl_type>1</app_chuk_conf.ctrl_type>
+    <app_chuk_conf.ctrl_type>0</app_chuk_conf.ctrl_type>
     <app_chuk_conf.hyst>0.15</app_chuk_conf.hyst>
     <app_chuk_conf.ramp_time_pos>0.4</app_chuk_conf.ramp_time_pos>
     <app_chuk_conf.ramp_time_neg>0.2</app_chuk_conf.ramp_time_neg>
@@ -113,16 +113,16 @@
     <app_balance_conf.tiltback_duty>0.75</app_balance_conf.tiltback_duty>
     <app_balance_conf.tiltback_hv_angle>10</app_balance_conf.tiltback_hv_angle>
     <app_balance_conf.tiltback_hv_speed>3</app_balance_conf.tiltback_hv_speed>
-    <app_balance_conf.tiltback_hv>100</app_balance_conf.tiltback_hv>
+    <app_balance_conf.tiltback_hv>200</app_balance_conf.tiltback_hv>
     <app_balance_conf.tiltback_lv_angle>10</app_balance_conf.tiltback_lv_angle>
     <app_balance_conf.tiltback_lv_speed>3</app_balance_conf.tiltback_lv_speed>
     <app_balance_conf.tiltback_lv>0</app_balance_conf.tiltback_lv>
-    <app_balance_conf.tiltback_return_speed>1</app_balance_conf.tiltback_return_speed>
+    <app_balance_conf.tiltback_return_speed>2</app_balance_conf.tiltback_return_speed>
     <app_balance_conf.tiltback_constant>0</app_balance_conf.tiltback_constant>
     <app_balance_conf.tiltback_constant_erpm>500</app_balance_conf.tiltback_constant_erpm>
     <app_balance_conf.tiltback_variable>0</app_balance_conf.tiltback_variable>
     <app_balance_conf.tiltback_variable_max>0</app_balance_conf.tiltback_variable_max>
-    <app_balance_conf.noseangling_speed>5</app_balance_conf.noseangling_speed>
+    <app_balance_conf.noseangling_speed>3</app_balance_conf.noseangling_speed>
     <app_balance_conf.startup_pitch_tolerance>20</app_balance_conf.startup_pitch_tolerance>
     <app_balance_conf.startup_roll_tolerance>8</app_balance_conf.startup_roll_tolerance>
     <app_balance_conf.startup_speed>30</app_balance_conf.startup_speed>
@@ -155,37 +155,37 @@
     <app_balance_conf.turntilt_speed>5</app_balance_conf.turntilt_speed>
     <app_balance_conf.turntilt_erpm_boost>20</app_balance_conf.turntilt_erpm_boost>
     <app_balance_conf.turntilt_erpm_boost_end>20000</app_balance_conf.turntilt_erpm_boost_end>
-    <app_pas_conf.ctrl_type>1</app_pas_conf.ctrl_type>
+    <app_pas_conf.ctrl_type>0</app_pas_conf.ctrl_type>
     <app_pas_conf.sensor_type>0</app_pas_conf.sensor_type>
     <app_pas_conf.pedal_rpm_start>10</app_pas_conf.pedal_rpm_start>
-    <app_pas_conf.pedal_rpm_end>120</app_pas_conf.pedal_rpm_end>
+    <app_pas_conf.pedal_rpm_end>180</app_pas_conf.pedal_rpm_end>
     <app_pas_conf.invert_pedal_direction>0</app_pas_conf.invert_pedal_direction>
     <app_pas_conf.magnets>24</app_pas_conf.magnets>
     <app_pas_conf.use_filter>1</app_pas_conf.use_filter>
-    <app_pas_conf.current_scaling>0.08</app_pas_conf.current_scaling>
-    <app_pas_conf.ramp_time_pos>0.3</app_pas_conf.ramp_time_pos>
-    <app_pas_conf.ramp_time_neg>0.2</app_pas_conf.ramp_time_neg>
+    <app_pas_conf.current_scaling>0.1</app_pas_conf.current_scaling>
+    <app_pas_conf.ramp_time_pos>0.6</app_pas_conf.ramp_time_pos>
+    <app_pas_conf.ramp_time_neg>0.3</app_pas_conf.ramp_time_neg>
     <app_pas_conf.update_rate_hz>500</app_pas_conf.update_rate_hz>
     <imu_conf.type>1</imu_conf.type>
-    <imu_conf.mode>0</imu_conf.mode>
-    <imu_conf.filter>0</imu_conf.filter>
+    <imu_conf.mode>1</imu_conf.mode>
+    <imu_conf.filter>1</imu_conf.filter>
     <imu_conf.accel_lowpass_filter_x>0</imu_conf.accel_lowpass_filter_x>
     <imu_conf.accel_lowpass_filter_y>0</imu_conf.accel_lowpass_filter_y>
-    <imu_conf.accel_lowpass_filter_z>0</imu_conf.accel_lowpass_filter_z>
+    <imu_conf.accel_lowpass_filter_z>1</imu_conf.accel_lowpass_filter_z>
     <imu_conf.gyro_lowpass_filter>0</imu_conf.gyro_lowpass_filter>
-    <imu_conf.sample_rate_hz>200</imu_conf.sample_rate_hz>
+    <imu_conf.sample_rate_hz>800</imu_conf.sample_rate_hz>
     <imu_conf.use_magnetometer>1</imu_conf.use_magnetometer>
-    <imu_conf.accel_confidence_decay>1</imu_conf.accel_confidence_decay>
-    <imu_conf.mahony_kp>0.3</imu_conf.mahony_kp>
+    <imu_conf.accel_confidence_decay>0.02</imu_conf.accel_confidence_decay>
+    <imu_conf.mahony_kp>1.7</imu_conf.mahony_kp>
     <imu_conf.mahony_ki>0</imu_conf.mahony_ki>
     <imu_conf.madgwick_beta>0.1</imu_conf.madgwick_beta>
-    <imu_conf.rot_roll>0</imu_conf.rot_roll>
-    <imu_conf.rot_pitch>0</imu_conf.rot_pitch>
-    <imu_conf.rot_yaw>0</imu_conf.rot_yaw>
-    <imu_conf.accel_offsets__0>0</imu_conf.accel_offsets__0>
-    <imu_conf.accel_offsets__1>0</imu_conf.accel_offsets__1>
-    <imu_conf.accel_offsets__2>0</imu_conf.accel_offsets__2>
-    <imu_conf.gyro_offsets__0>0</imu_conf.gyro_offsets__0>
-    <imu_conf.gyro_offsets__1>0</imu_conf.gyro_offsets__1>
-    <imu_conf.gyro_offsets__2>0</imu_conf.gyro_offsets__2>
+    <imu_conf.rot_roll>-5.867</imu_conf.rot_roll>
+    <imu_conf.rot_pitch>-0.525</imu_conf.rot_pitch>
+    <imu_conf.rot_yaw>-90</imu_conf.rot_yaw>
+    <imu_conf.accel_offsets__0>-0.037</imu_conf.accel_offsets__0>
+    <imu_conf.accel_offsets__1>-0.012</imu_conf.accel_offsets__1>
+    <imu_conf.accel_offsets__2>0.004</imu_conf.accel_offsets__2>
+    <imu_conf.gyro_offsets__0>-0.038</imu_conf.gyro_offsets__0>
+    <imu_conf.gyro_offsets__1>0.225</imu_conf.gyro_offsets__1>
+    <imu_conf.gyro_offsets__2>-0.445</imu_conf.gyro_offsets__2>
 </APPConfiguration>
