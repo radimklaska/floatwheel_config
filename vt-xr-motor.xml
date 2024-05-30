@@ -5,11 +5,11 @@
     <comm_mode>0</comm_mode>
     <motor_type>2</motor_type>
     <sensor_mode>0</sensor_mode>
-    <l_current_max>75</l_current_max>
-    <l_current_min>-75</l_current_min>
-    <l_in_current_max>45</l_in_current_max>
-    <l_in_current_min>-45</l_in_current_min>
-    <l_abs_current_max>100</l_abs_current_max>
+    <l_current_max>120</l_current_max>
+    <l_current_min>-120</l_current_min>
+    <l_in_current_max>90</l_in_current_max>
+    <l_in_current_min>-60</l_in_current_min>
+    <l_abs_current_max>175</l_abs_current_max>
     <l_min_erpm>-100000</l_min_erpm>
     <l_max_erpm>100000</l_max_erpm>
     <l_erpm_start>0.8</l_erpm_start>
@@ -108,12 +108,12 @@
     <foc_hfi_obs_ovr_sec>0.001</foc_hfi_obs_ovr_sec>
     <foc_hfi_samples>1</foc_hfi_samples>
     <foc_offsets_cal_on_boot>1</foc_offsets_cal_on_boot>
-    <foc_offsets_current__0>2049.64</foc_offsets_current__0>
-    <foc_offsets_current__1>2049.69</foc_offsets_current__1>
-    <foc_offsets_current__2>2049.39</foc_offsets_current__2>
-    <foc_offsets_voltage__0>-0.0007</foc_offsets_voltage__0>
-    <foc_offsets_voltage__1>0.0014</foc_offsets_voltage__1>
-    <foc_offsets_voltage__2>-0.0007</foc_offsets_voltage__2>
+    <foc_offsets_current__0>2049.76</foc_offsets_current__0>
+    <foc_offsets_current__1>2049.73</foc_offsets_current__1>
+    <foc_offsets_current__2>2049.32</foc_offsets_current__2>
+    <foc_offsets_voltage__0>-0.0002</foc_offsets_voltage__0>
+    <foc_offsets_voltage__1>0.0012</foc_offsets_voltage__1>
+    <foc_offsets_voltage__2>-0.001</foc_offsets_voltage__2>
     <foc_offsets_voltage_undriven__0>0</foc_offsets_voltage_undriven__0>
     <foc_offsets_voltage_undriven__1>0</foc_offsets_voltage_undriven__1>
     <foc_offsets_voltage_undriven__2>0</foc_offsets_voltage_undriven__2>
@@ -121,10 +121,10 @@
     <foc_phase_filter_disable_fault>1</foc_phase_filter_disable_fault>
     <foc_phase_filter_max_erpm>4000</foc_phase_filter_max_erpm>
     <foc_mtpa_mode>0</foc_mtpa_mode>
-    <foc_fw_current_max>0</foc_fw_current_max>
-    <foc_fw_duty_start>0.8</foc_fw_duty_start>
+    <foc_fw_current_max>30</foc_fw_current_max>
+    <foc_fw_duty_start>0.6</foc_fw_duty_start>
     <foc_fw_q_current_factor>0.02</foc_fw_q_current_factor>
-    <foc_fw_ramp_time>0.2</foc_fw_ramp_time>
+    <foc_fw_ramp_time>0.5</foc_fw_ramp_time>
     <foc_speed_soure>1</foc_speed_soure>
     <gpd_buffer_notify_left>200</gpd_buffer_notify_left>
     <gpd_buffer_interpol>0</gpd_buffer_interpol>
