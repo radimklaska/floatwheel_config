@@ -173,7 +173,7 @@
     <imu_conf.accel_lowpass_filter_y>12</imu_conf.accel_lowpass_filter_y>
     <imu_conf.accel_lowpass_filter_z>1</imu_conf.accel_lowpass_filter_z>
     <imu_conf.gyro_lowpass_filter>0</imu_conf.gyro_lowpass_filter>
-    <imu_conf.sample_rate_hz>416</imu_conf.sample_rate_hz>
+    <imu_conf.sample_rate_hz>832</imu_conf.sample_rate_hz>
     <imu_conf.use_magnetometer>1</imu_conf.use_magnetometer>
     <imu_conf.accel_confidence_decay>0.02</imu_conf.accel_confidence_decay>
     <imu_conf.mahony_kp>2</imu_conf.mahony_kp>

@@ -11,8 +11,8 @@
     <hertz>832</hertz>
     <fault_pitch>60</fault_pitch>
     <fault_roll>60</fault_roll>
-    <fault_adc1>2.3</fault_adc1>
-    <fault_adc2>2.3</fault_adc2>
+    <fault_adc1>2</fault_adc1>
+    <fault_adc2>2</fault_adc2>
     <is_footbeep_enabled>1</is_footbeep_enabled>
     <fault_delay_pitch>250</fault_delay_pitch>
     <fault_delay_roll>250</fault_delay_roll>
@@ -32,7 +32,7 @@
     <is_surgebeep_enabled>1</is_surgebeep_enabled>
     <tiltback_hv_angle>8</tiltback_hv_angle>
     <tiltback_hv_speed>1</tiltback_hv_speed>
-    <tiltback_hv>86</tiltback_hv>
+    <tiltback_hv>85.5</tiltback_hv>
     <tiltback_lv_angle>10</tiltback_lv_angle>
     <tiltback_lv_speed>1</tiltback_lv_speed>
     <tiltback_lv>60</tiltback_lv>

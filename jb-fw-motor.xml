@@ -17,14 +17,14 @@
     <l_max_erpm_fbrake_cc>1500</l_max_erpm_fbrake_cc>
     <l_min_vin>18</l_min_vin>
     <l_max_vin>95</l_max_vin>
-    <l_battery_cut_start>68</l_battery_cut_start>
-    <l_battery_cut_end>60</l_battery_cut_end>
+    <l_battery_cut_start>54</l_battery_cut_start>
+    <l_battery_cut_end>50</l_battery_cut_end>
     <l_slow_abs_current>0</l_slow_abs_current>
     <l_temp_fet_start>70</l_temp_fet_start>
     <l_temp_fet_end>80</l_temp_fet_end>
-    <l_temp_motor_start>85</l_temp_motor_start>
-    <l_temp_motor_end>100</l_temp_motor_end>
-    <l_temp_accel_dec>0.15</l_temp_accel_dec>
+    <l_temp_motor_start>75</l_temp_motor_start>
+    <l_temp_motor_end>80</l_temp_motor_end>
+    <l_temp_accel_dec>0</l_temp_accel_dec>
     <l_min_duty>0.005</l_min_duty>
     <l_max_duty>0.95</l_max_duty>
     <l_watt_max>1.5e+06</l_watt_max>
@@ -121,7 +121,7 @@
     <foc_phase_filter_disable_fault>1</foc_phase_filter_disable_fault>
     <foc_phase_filter_max_erpm>4000</foc_phase_filter_max_erpm>
     <foc_mtpa_mode>0</foc_mtpa_mode>
-    <foc_fw_current_max>30</foc_fw_current_max>
+    <foc_fw_current_max>50</foc_fw_current_max>
     <foc_fw_duty_start>0.6</foc_fw_duty_start>
     <foc_fw_q_current_factor>0.02</foc_fw_q_current_factor>
     <foc_fw_ramp_time>1</foc_fw_ramp_time>
@@ -201,10 +201,10 @@ p, li { white-space: pre-wrap; }
 &lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Roboto'; font-size:12pt; font-weight:400; font-style:normal;&quot;&gt;
 &lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;Some comments about the motor quality. Images can be added as well.&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</motor_quality_description>
     <bms.type>1</bms.type>
-    <bms.limit_mode>3</bms.limit_mode>
-    <bms.t_limit_start>45</bms.t_limit_start>
-    <bms.t_limit_end>65</bms.t_limit_end>
-    <bms.soc_limit_start>0.05</bms.soc_limit_start>
+    <bms.limit_mode>0</bms.limit_mode>
+    <bms.t_limit_start>70</bms.t_limit_start>
+    <bms.t_limit_end>90</bms.t_limit_end>
+    <bms.soc_limit_start>0</bms.soc_limit_start>
     <bms.soc_limit_end>0</bms.soc_limit_end>
     <bms.fwd_can_mode>0</bms.fwd_can_mode>
 </MCConfiguration>
