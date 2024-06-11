@@ -2,12 +2,12 @@
 <CustomConfiguration>
     <ConfigVersion>2</ConfigVersion>
     <config_name>float_config</config_name>
-    <kp>23</kp>
-    <kp2>0.7</kp2>
+    <kp>20</kp>
+    <kp2>0.8</kp2>
     <ki>0.005</ki>
-    <mahony_kp>2</mahony_kp>
-    <kp_brake>1</kp_brake>
-    <kp2_brake>1</kp2_brake>
+    <mahony_kp>1.9</mahony_kp>
+    <kp_brake>1.2</kp_brake>
+    <kp2_brake>0.5</kp2_brake>
     <hertz>800</hertz>
     <fault_pitch>90</fault_pitch>
     <fault_roll>90</fault_roll>
@@ -74,35 +74,35 @@
     <brkbooster_angle>0</brkbooster_angle>
     <brkbooster_ramp>4</brkbooster_ramp>
     <brkbooster_current>0</brkbooster_current>
-    <torquetilt_start_current>15</torquetilt_start_current>
+    <torquetilt_start_current>20</torquetilt_start_current>
     <torquetilt_angle_limit>8</torquetilt_angle_limit>
     <torquetilt_on_speed>5</torquetilt_on_speed>
-    <torquetilt_off_speed>3</torquetilt_off_speed>
-    <torquetilt_strength>0.2</torquetilt_strength>
-    <torquetilt_strength_regen>0.2</torquetilt_strength_regen>
-    <atr_strength_up>1</atr_strength_up>
-    <atr_strength_down>1</atr_strength_down>
+    <torquetilt_off_speed>5</torquetilt_off_speed>
+    <torquetilt_strength>0.15</torquetilt_strength>
+    <torquetilt_strength_regen>0</torquetilt_strength_regen>
+    <atr_strength_up>0.8</atr_strength_up>
+    <atr_strength_down>0.4</atr_strength_down>
     <atr_threshold_up>0.5</atr_threshold_up>
     <atr_threshold_down>0.5</atr_threshold_down>
-    <atr_speed_boost>0.3</atr_speed_boost>
+    <atr_speed_boost>0</atr_speed_boost>
     <atr_angle_limit>8</atr_angle_limit>
-    <atr_on_speed>4</atr_on_speed>
-    <atr_off_speed>5</atr_off_speed>
+    <atr_on_speed>5</atr_on_speed>
+    <atr_off_speed>3</atr_off_speed>
     <atr_response_boost>1.5</atr_response_boost>
-    <atr_transition_boost>2.5</atr_transition_boost>
+    <atr_transition_boost>3</atr_transition_boost>
     <atr_filter>5</atr_filter>
     <atr_amps_accel_ratio>8</atr_amps_accel_ratio>
     <atr_amps_decel_ratio>7</atr_amps_decel_ratio>
     <atr_test1>0</atr_test1>
     <atr_test2>0</atr_test2>
     <atr_test3>0</atr_test3>
-    <braketilt_strength>0</braketilt_strength>
+    <braketilt_strength>4</braketilt_strength>
     <braketilt_lingering>2</braketilt_lingering>
-    <turntilt_strength>0</turntilt_strength>
-    <turntilt_angle_limit>2</turntilt_angle_limit>
+    <turntilt_strength>3</turntilt_strength>
+    <turntilt_angle_limit>3</turntilt_angle_limit>
     <turntilt_start_angle>2</turntilt_start_angle>
     <turntilt_start_erpm>1000</turntilt_start_erpm>
-    <turntilt_speed>3</turntilt_speed>
+    <turntilt_speed>5</turntilt_speed>
     <turntilt_erpm_boost>200</turntilt_erpm_boost>
     <turntilt_erpm_boost_end>5000</turntilt_erpm_boost_end>
     <turntilt_yaw_aggregate>90</turntilt_yaw_aggregate>
