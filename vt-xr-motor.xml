@@ -107,7 +107,7 @@
     <foc_hfi_start_samples>5</foc_hfi_start_samples>
     <foc_hfi_obs_ovr_sec>0.001</foc_hfi_obs_ovr_sec>
     <foc_hfi_samples>1</foc_hfi_samples>
-    <foc_offsets_cal_on_boot>1</foc_offsets_cal_on_boot>
+    <foc_offsets_cal_on_boot>0</foc_offsets_cal_on_boot>
     <foc_offsets_current__0>2050.41</foc_offsets_current__0>
     <foc_offsets_current__1>2051.03</foc_offsets_current__1>
     <foc_offsets_current__2>2050.89</foc_offsets_current__2>
